@@ -31,7 +31,7 @@ This repository is dedicated to my preparation for the Google Summer of Code (GS
 ### Navigation:
 
 - [Issues](link): Detailed task tracking.
-- [Documentation](link): Task-related docs.
+- [Documentation](documentation.md): Task-related docs.
 - [Contact](kashyapvidhan@gmail.com): Reach out for questions or feedback.
 
 I'll be regularly updating this repository to showcase my progress. Thank you for considering my application.
