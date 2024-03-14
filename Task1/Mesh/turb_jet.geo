@@ -25,9 +25,9 @@ Physical Curve("left", 11) = {5};
 
 Curve Loop(1) = {1, 2, -7, 6};
 Plane Surface(1) = {1};
-
 Curve Loop(2) = {7, 3, 4, 5};
 Plane Surface(2) = {2};
+Physical Surface("fluid", 12) = {2, 1};
 
 Compound Curve {5, 3};
 Compound Curve {6, 2};
@@ -43,3 +43,5 @@ Mesh.ElementOrder = 2; // Quadratic elements
 Mesh.ElementOrderBound = 1; // Linear elements on boundaries
 Mesh.RecombineAll = 1; // Recombine elements
 Mesh 2;
+//+
+
