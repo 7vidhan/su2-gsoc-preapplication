@@ -10,9 +10,9 @@ Line(2) = {2, 3}; Transfinite Curve {2} = 20 Using Progression 1;
 Line(3) = {3, 4}; Transfinite Curve {3} = 40 Using Progression 1;
 Line(4) = {4, 1}; Transfinite Curve {4} = 20 Using Progression 1;
 
-Physical Curve("inlet", 5) = {1};
+Physical Curve("inlet", 5) = {4};
 Physical Curve("outlet", 6) = {2};
-Physical Curve("wall", 7) = {3,4};
+Physical Curve("wall", 7) = {1,3};
 
 Curve Loop(1) = {4, 1, 2, 3};
 Plane Surface(1) = {1};
