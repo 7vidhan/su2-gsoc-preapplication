@@ -39,9 +39,10 @@ Transfinite Surface {2};
 Recombine Surface {1,2};
 
 // Generate mesh
-Mesh.ElementOrder = 2; // Quadratic elements
-Mesh.ElementOrderBound = 1; // Linear elements on boundaries
-Mesh.RecombineAll = 1; // Recombine elements
-Mesh 2;
+//Mesh.ElementOrder = 2; // Quadratic elements
+//Mesh.ElementOrderBound = 1; // Linear elements on boundaries
+//Mesh.RecombineAll = 1; // Recombine elements
+//Mesh 2;
+//Write "turb_jet_su2.su2"; // Exporting the file in su2 format
 //+
 

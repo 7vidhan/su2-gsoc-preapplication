@@ -16,12 +16,12 @@ Physical Curve("wall", 7) = {3,4};
 
 Curve Loop(1) = {4, 1, 2, 3};
 Plane Surface(1) = {1};
+Physical Surface("fluid", 1) = {1};
 
 Compound Curve {2,4};
 Compound Curve {1,3};
 
 Transfinite Surface {1};
-
 
 // Generate mesh
 Mesh.ElementOrder = 2; // Quadratic elements
