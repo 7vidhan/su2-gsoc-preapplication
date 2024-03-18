@@ -19,7 +19,7 @@ Problem Description: Analysis of velocity profile for an incompressible, viscous
 
 ![Mesh 121x41](images/Mesh_121x41.png)
 
-### Mesh 121x31
+### Mesh 81x31
 
 ![Mesh 81x31](images/Mesh_81x31.png)
 
