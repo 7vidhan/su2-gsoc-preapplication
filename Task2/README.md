@@ -7,7 +7,7 @@ Problem Description: Analysis of velocity profile for an incompressible, viscous
 - **Inlet Velocity:** 5m/s
 - **No-slip Wall Boundary Condition:** At y = 0.5m 
 - **Outlet Pressure:** 0.0 Pa
-- **Viscosity (Constant):** \(1.83463 \times 10^{-2}\)
+- **Viscosity (Constant):** 1.83463e-2
 
 ## Meshes
 
