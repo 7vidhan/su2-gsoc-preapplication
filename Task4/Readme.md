@@ -30,3 +30,8 @@ for iVertex in range(nVertex_Marker):
     x = MarkerCoords(iVertex, 0)
     newTemp = wall_temperature_mean + np.sin(2*np.pi*x)*wall_temperature_amplitude
     SU2Driver.SetMarkerCustomTemperature(MarkerID, iVertex, newTemp)
+```
+
+<p align="center">
+    <img src="veloy.png" alt="Velocity in x-direction" width="720" height="400">
+</p>
