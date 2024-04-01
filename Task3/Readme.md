@@ -36,4 +36,6 @@ Once the simulation completes successfully, the results will be stored in the ou
 - For questions or issues related to the Python wrapper or this test case, please refer to the SU2 community forums or open an issue on the GitHub repository.
 
 ## My Results
-![Velocity in x-direction](velocity.png)
+<p align="center">
+    <img src="velocity.png" alt="Velocity in x-direction" >
+</p>
