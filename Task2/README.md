@@ -9,7 +9,11 @@ The objective of this simulation is to study the turbulent behavior of an axisym
 ## Methodology
 
 - **Solver:** SU2CFD, an open-source computational fluid dynamics solver.
-- **Geometry and Mesh** Axisymmetric nozzle geometry representing the jet inlet(D) on the lower left surface. Domain width is chosen 10D to capture the velocity diffusion and turbulence across y-direction. Length of the domain is greater than 30D. Structured mesh is generated. Mesh elements near the jet flow are generated of higher density to capture the spread better. No. of mesh elements are 9282. No. of merkers are 4. "inlet" for jet inlet. "wall" is top surface and reamining part of the left surface(other than inlet). "outlet" and "symmetry" as bottom surface.
+- **Geometry and Mesh** The axisymmetric nozzle geometry represents the jet inlet (D) located on the lower left surface, with a domain width chosen to be 10D to adequately capture velocity diffusion and turbulence across the y-direction. The length of the domain exceeds 30D. A structured mesh is generated, ensuring consistency and control over element distribution. Higher mesh density is applied near the jet flow region to accurately capture flow spread. In total, the mesh comprises 9282 elements. Four markers are defined to delineate different boundary conditions: "inlet" for the jet inlet, "wall" for the top surface and remaining part of the left surface (excluding the inlet), "outlet" for the domain's bottom surface, and "symmetry" for the symmetry plane.
+<p align="center">
+    <img src="mesh.png" alt="Velocity in x-direction" >
+</p>
+
 - **Turbulence Model, Boundary Conditions:**
 ```text
 SOLVER= INC_RANS
@@ -37,4 +41,6 @@ CONV_RESIDUAL_MINVAL= -6
 ## Results
 Convergence history output is in history.csv.
 The simulation produced the following volume output:
-![Velocity in x-direction](jet_flow.png)
+<p align="center">
+    <img src="jet_flow.png" alt="Velocity in x-direction" width="600" height="360" >
+</p>
